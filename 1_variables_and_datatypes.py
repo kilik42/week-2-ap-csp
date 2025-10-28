@@ -30,16 +30,16 @@ name = "John"
 print("Name:", name)
 
 # # 2. Numbers: Numeric data (integers or floats)
-# age = 23
-# print("Age:", age)
+age = 23
+print("Age:", age)
 
 # # 3. Booleans: True or False values
-# hungry = False
-# print("Hungry:", hungry)
+hungry = False
+print("Hungry:", hungry)
 
 
 # # Example combining them all:
-# print(f"{name} is {age} years old. Hungry? {hungry}")
+print(f"{name} is {age} years old. Hungry? {hungry}")
 
 
 # # ----------------------------------------
@@ -55,10 +55,12 @@ print("Name:", name)
 # # Example (INVALID): first name = "John" ❌
 # # Example (VALID):
 # first_name = "John"
+# firstName = "john"
 
 # # 3. Avoid using Python keywords and symbols
 # # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
 # # Example (VALID):
+# class def return etc. 
 # loop_word = "test"
 
 # print("Variable naming rules followed successfully!\n")
