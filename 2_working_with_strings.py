@@ -44,12 +44,13 @@ print("name", name.capitalize()) # capitalizes the variable
 # # Find the length of the string
 print("Length of phrase:", len(phrase))  # Output: 14
 
+
 declaration_of_independence = " "
 #find the first paragraph of this online
 #paste it in between the quotation marks
 #print out the length of it
-length_dec = len(declaration_of_independence)
-print(length_dec)
+
+
 #push it to github
 # git add .
 # git commit -m "declaration"
@@ -61,24 +62,43 @@ print(length_dec)
 
 chicago_mayor = "Johnson"
 #index slicing
-print(chicago_mayor[0:4])
-# the first num 0 is inclusive
-# the last number is exclusive
-print(chicago_mayor[4:])
-
-print(len(chicago_mayor))
 print(chicago_mayor[0])
-print(chicago_mayor[4])
+#get the last letter
 print(chicago_mayor[-1])
-# # Indexing: Access characters by position (0-based index)
-print("First character:", phrase[0])  # Output: P
-print("Last character:", phrase[-1])  # Output: !
+#get the "s" in the string
+print(chicago_mayor[4])
+# slicing
+#get the "son" from the string
+print(chicago_mayor[ 4 : ])
+# the first number in slicing is inclusing
+# the second number is exclusive
+# get the string "John"
+print(chicago_mayor[0 : 4])
+print(chicago_mayor[0 : -3])
+# get "ohns"
+print(chicago_mayor[1:5])
+# when we get one character/letter
+# its called string indexing
+# when we get a chunk of letters
+#from a string, its called 
+# string slicing
+# git add .
+# git commit -m "string slicing"
+#git push origin 
 
 phrase3 = "Supercagifragilstic"
 #uppercase it
 #slice Super out of it into a different variable
 # slice cagi out of phrase3 into its own variable
 #print out the last letter
+print(phrase.upper())
+cut = phrase3[0:5]
+print(cut)
+# git add .
+# git commit -m "practice slicing"
+# git push origin 
+
+
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
@@ -104,11 +124,14 @@ phrase3 = "Supercagifragilstic"
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
+#git add .
+# git commit -m "advanced strings"
+# git push origin 
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
