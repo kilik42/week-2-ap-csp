@@ -16,10 +16,10 @@ favorite_number = 7
 
 #  Step 2: Practice String Operations
 # 1. Print your name in uppercase
-
+print(first_name.upper())
 
 # 2. Print how many letters are in your name
-
+print(len(first_name))
 
 # 3. Combine your name and favorite color into one message
 
